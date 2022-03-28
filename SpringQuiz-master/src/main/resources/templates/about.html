@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html 	xmlns:th="http://www.thymeleaf.org"
+		xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title> Quiz Game - About</title>
+</head>
+<body>
+	<header 
+		th:replace="~{fragments/HeaderAndFooter :: header}">
+	</header>
+	<nav
+	 	th:replace="~{fragments/Navigation :: topBar}" >
+	 </nav>
+	 <h2 align="center"> Info Page </h2>
+	 <p align="center"> Hello we are team of students(Omar Temirlan Mirlanuly, Moldir Mazhit and Omarov Sanzhar), group ITCS-1902, it's our project with SpringBoot, SpringSecurity, Bootstrap, MySql and other frameworks <br/>
+		 If you have any questions about adjusting the site, you can write to e-mail at this address
+	 	<a href="mailto:27483@iitu.edu.kz">27483@iitu.edu.kz</a></p>
+	 <footer
+		th:replace="~{fragments/HeaderAndFooter :: footer}">
+	</footer>
+</body>
+</html>
